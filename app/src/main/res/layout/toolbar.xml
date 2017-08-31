@@ -1,0 +1,29 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/toolbar_height"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    	<!--EditText-->
+    	<EditText
+        android:id="@+id/edit_text_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="http://"
+        android:hint="enter url"
+        android:singleLine="true"
+        android:imeOptions="actionGo"
+        android:layout_weight="1" />
+        <!--Button-->
+        <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO" />
+    </LinearLayout>
+        
+</android.support.v7.widget.Toolbar>
