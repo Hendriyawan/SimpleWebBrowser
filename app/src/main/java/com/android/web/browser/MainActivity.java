@@ -1,5 +1,9 @@
 package com.android.web.browser;
-
+/**
+*    created by Hendriyawan 31/08/2017
+*    Simple Android Web Browser
+*
+*/
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.os.*;
